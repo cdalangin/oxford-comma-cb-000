@@ -10,4 +10,5 @@ def oxford_comma(array)
   end
   else
     array.join(", ").insert(-14, "and ")
+  end
 end
