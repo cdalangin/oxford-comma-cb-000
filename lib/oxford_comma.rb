@@ -8,5 +8,6 @@ def oxford_comma(array)
   else
     array.each do |fruit|
       array.insert(", ")
+    end
   end
 end
