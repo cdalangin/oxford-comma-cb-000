@@ -6,6 +6,8 @@ def oxford_comma(array)
   elsif array.length == 3
     return array.insert(1, ", ").insert(3, ", and ").join
   else
-    return array.join(", ").insert(-8, "and ")
+    return array.insert(-1, "and ")
+    array.each do |fruit|
+      array.insert(", ")
   end
 end
