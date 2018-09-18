@@ -10,7 +10,6 @@ def oxford_comma(array)
     array.each do |fruit|
       basket << "#{fruit}" + ", "
     end
-    basket.pop
-    basket.insert(-2, "and ").join
+    basket
   end
 end
