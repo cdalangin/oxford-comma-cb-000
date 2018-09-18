@@ -10,6 +10,6 @@ def oxford_comma(array)
     array.each do |fruit|
       array.insert(", ").join
     end
-    array.join
+]]
   end
 end
