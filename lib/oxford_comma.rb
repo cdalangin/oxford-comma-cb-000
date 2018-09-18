@@ -9,6 +9,6 @@ def oxford_comma(array)
     array.join(", ").insert(-10, "and ")
   end
   if array.length > 3
-    array.join("m")
+    array.join(", ")
   end
 end
