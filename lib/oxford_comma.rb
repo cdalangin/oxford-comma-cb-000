@@ -9,5 +9,5 @@ def oxford_comma(array)
     return array.join(", ").insert(-10, "and ")
   end
   else
-    array.join(", ")
+    array.join(", ").insert(-14, "and ")
 end
