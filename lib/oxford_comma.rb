@@ -8,7 +8,7 @@ def oxford_comma(array)
   else
     basket = []
     array.each do |fruit|
-      array.insert(", ")
+      basket << "#{fruit}, "
     end
     basket.insert(-1, "and ").join
   end
